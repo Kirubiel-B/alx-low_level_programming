@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet.
+ * main - prints the alphabet in lowercase
  *
- * Return: Always 0 (Success)
+ * Return: 0 Success
  */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
+	int arr;
+	char a[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	for (i = 0; i < 52; i++)
+	for (arr = 0; arr < 52; arr++)
 	{
-		putchar(alp[i]);
+		putchar(a[arr]);
 	}
 	putchar('\n');
 	return (0);

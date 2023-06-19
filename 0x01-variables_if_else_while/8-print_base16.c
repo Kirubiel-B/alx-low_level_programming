@@ -1,21 +1,19 @@
 #include <stdio.h>
 /**
- * main - Prints numbers between 0 to 9 and letters between a to f.
+ * main - prints all the numbers of base 16 in lowercase
  *
- * Return: Always 0 (Success)
+ * Return: 0 Success
  */
 int main(void)
 {
-	int i;
 
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+int n;
+char hex[16] = "0123456789abcdef";
+
+for (n = 0; n < 16; n++)
+{
+putchar(hex[n]);
+}
+putchar('\n');
+return (0);
 }

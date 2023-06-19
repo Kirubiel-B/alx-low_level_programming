@@ -1,20 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 /**
- * main - Prints the alphabet without q and e.
+ * main - prints the alphabet in lowercase
  *
- * Return: Always 0 (Success)
+ * Return: 0 Success
  */
 int main(void)
 {
-	int i;
+	int arr;
+	const char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 97; i < 123; i++)
+	for (arr = 0; arr < 26; arr++)
 	{
-		if (i != 101 && i != 113)
+		if (arr != 4 && arr != 16)
 		{
-			putchar(i);
+			putchar(alphabets[arr]);
 		}
 	}
 	putchar('\n');
