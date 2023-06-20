@@ -14,5 +14,5 @@ for (count = 0; count < 8; count++)
 _putchar(ch[count]);
 }
 _putchar('\n');
-return(0);
+return (0);
 }
