@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - function that prints every minute of the day, starting from 00:00 to 23:59
+ * jack_bauer - prints every minute of the day, starting from 00:00 to 23:59
  * Return: void
  */
 void jack_bauer(void)
@@ -12,7 +12,7 @@ int l;
 
 for (i = 0; i < 3; i++)
 {
-for (j = 0; j < 4; j++)
+for (j = 0; j < 10; j++)
 {
 for (k = 0; k < 6; k++)
 {
