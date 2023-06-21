@@ -20,27 +20,39 @@ x = i * j;
 if (j > 0)
 {
 if (x > 99 && x <= 999)
+{
 _putchar(',');
 _putchar(' ');
+}
 else if (x > 9 && x <= 99)
+{
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+}
 else
+}
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
+}
 if (x > 99 && x <= 999)
+{
 _putchar((x / 100) + '0');
 _putchar(((x / 10) % 10) + '0');
 _putchar((x % 10) + '0');
+}
 else if (x > 9 && x <= 99)
+{
 _putchar((x / 10) + '0');
 _putchar((x % 10) + '0');
+}
 else
+{
 _putchar(x + '0');
+}
 }
 _putchar('\n');
 }
