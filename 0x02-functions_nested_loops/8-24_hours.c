@@ -11,6 +11,8 @@ int k;
 int l;
 int x;
 
+x = 10;
+
 for (i = 0; i < 3; i++)
 {
 if (i == 2)
