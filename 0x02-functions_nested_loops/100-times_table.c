@@ -50,7 +50,7 @@ _putchar(fd + '0');
 _putchar(md + '0');
 _putchar(ld + '0');
 }
-else if(x > 9 && x <= 99)
+else if (x > 9 && x <= 99)
 {
 fd = x / 10;
 ld = x % 10;
