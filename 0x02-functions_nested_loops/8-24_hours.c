@@ -9,10 +9,15 @@ int i;
 int j;
 int k;
 int l;
+int x;
 
 for (i = 0; i < 3; i++)
 {
-for (j = 0; j < 10; j++)
+if (i = 2)
+{
+x = 4;
+}
+for (j = 0; j < x; j++)
 {
 for (k = 0; k < 6; k++)
 {
