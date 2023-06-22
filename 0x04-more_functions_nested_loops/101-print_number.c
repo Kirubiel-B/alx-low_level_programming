@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_number - prints an int
- * @n: int 
+ * @n: int
  * Return: void
  */
 void print_number(int n)
@@ -12,7 +12,8 @@ if (n < 0)
 {
 n1 = -n;
 _putchar('-');
-} else
+}
+else
 {
 n1 = n;
 }
