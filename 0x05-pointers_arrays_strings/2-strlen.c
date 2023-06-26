@@ -2,16 +2,16 @@
 /**
  * _strlen - function that returns the length of a string
  * @s: the string
- * Return: lengt
+ * Return: longi
  */
 int _strlen(char *s)
 {
-int lengt = 0;
+int longi = 0;
 
 while (*s != '\0')
-}
-lengt++;
+{
+longi++;
 s++;
 }
-return (lengt);
+return (longi);
 }
