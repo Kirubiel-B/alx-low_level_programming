@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_array - function that prints n elements of an array
- * @a: array 
+ * @a: array
  * @n: is the number
  * Return: void
  */
