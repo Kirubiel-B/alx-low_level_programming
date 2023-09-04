@@ -30,7 +30,7 @@ int _strncmp(const char *s1, const char *s2, size_t n)
 }
 
 /**
- * _close - function close a file descriptor and print an error message upon failure
+ * _close - function close a file descriptor and print an error on failure
  * @fd: the file descriptor to close
  */
 void _close(int fd)
