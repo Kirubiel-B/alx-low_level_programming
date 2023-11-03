@@ -1,12 +1,7 @@
-/*
- * File: 1-djb2.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "hash_tables.h"
 
 /**
- * hash_djb2 - Hash function implementing the djb2 algorithm.
+ * hash_djb2 - function hash function implementing the djb2 algorithm.
  * @str: The string to hash.
  *
  * Return: The calculated hash.

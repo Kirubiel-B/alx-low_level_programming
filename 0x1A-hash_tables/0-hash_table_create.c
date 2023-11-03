@@ -1,12 +1,7 @@
-/*
- * File: 0-hash_table_create.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "hash_tables.h"
 
 /**
- * hash_table_create - Creates a hash table.
+ * hash_table_create - function creates a hash table.
  * @size: The size of the array.
  *
  * Return: If an error occurs - NULL.

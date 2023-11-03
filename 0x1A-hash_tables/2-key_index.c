@@ -1,12 +1,7 @@
-/*
- * File: 2-key_index.c
- * Auth: Gedeon Obae Gekonge
-*/
-
 #include "hash_tables.h"
 
 /**
- * key_index - Get the index at which a key/value pair should
+ * key_index - function get the index at which a key/value pair should
  *             be stored in array of a hash table.
  * @key: The key to get the index of.
  * @size: The size of the array of the hash table.

@@ -1,12 +1,7 @@
-/*
- * File: 3-hash_table_set.c
- * Auth: Gedeon Obae Gekonge
-*/
-
 #include "hash_tables.h"
 
 /**
- * hash_table_set - Add or update an element in a hash table.
+ * hash_table_set - function add or update an element in a hash table.
  * @ht: A pointer to the hash table.
  * @key: The key to add - cannot be an empty string.
  * @value: The value associated with key.
